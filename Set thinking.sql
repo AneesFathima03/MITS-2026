@@ -1,0 +1,6 @@
+SELECT fName, lName
+FROM Staff
+UNION
+SELECT fName, lName
+FROM PrivateOwner
+ORDER BY lName, fName;
